@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Drew" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sigilkore.com" />
+    <meta name="theme-color" content="#FF0000">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝖘𝖎𝖌𝖎𝖑𝖐𝖔𝖗𝖊</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/musicplayer.css">
+</head>
+
+<body>
+    <div class="background-video">
+        <video autoplay loop muted>
+            <source src="video/background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="box">
+        <h1 class="title">Drew</h1>
+        <div class="description">👣🚷🧛</div>
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+                <h4 id="title"></h4>
+                <div class="progress-container" id="progress-container">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <audio src="music/Killxxtreak (feat. Luci4).mp3" id="audio"></audio>
+
+            <div class="img-container">
+                <img src="images/Killxxtreak (feat. Luci4).png" alt="music-cover" id="cover" />
+            </div>
+            <div class="navigation">
+                <button id="prev" class="action-btn rounde">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="action-btn action-btn-big rounde">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="action-btn rounde">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+        <div class="button-container">
+            <button type="button">Snapchat</button>
+            <button type="button">Instagram</button>
+            <button type="button">Soundcloud</button>
+            <button type="button">Steam</button>
+            <button type="button">Discord</button>
+            <button type="button">OGU</button>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/musicplayer.js"></script>
+</body>
+
+</html>
